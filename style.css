@@ -60,3 +60,77 @@ body {
 #phase3:hover {
     box-shadow: 0px 0px 5px 3px grey;
 }
+
+.box{
+    width: auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #5E81AC;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #ECEFF4;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #A3BE8C;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A3BE8C;
+    padding: 14px 40px;
+    outline: none;
+    color: #ECEFF4;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #A3BE8C;
+  }
+  
+  ::placeholder { 
+    color: #D8DEE9;
+    opacity: 1; 
+  }
+
+.button{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A3BE8C;
+    padding: 14px 40px;
+    outline: none;
+    color: #ECEFF4;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 300px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #E5E9F0;
+    font-size: 15px;
+}
+  .button:hover{
+    background: #A3BE8C;
+}
