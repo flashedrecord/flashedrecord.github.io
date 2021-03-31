@@ -1,136 +1,138 @@
 body {
-    background-color: #4C566A;
+  background-color: #4c566a;
 }
 
 .title {
-    font-family: 'Nunito', sans-serif;
-    color: #E5E9F0;
-    font-size: 75px;
-    text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: #e5e9f0;
+  font-size: 75px;
+  text-align: center;
 }
 
 .largetext {
-    font-family: 'Nunito', sans-serif;
-    color: #E5E9F0;
-    font-size: 50px;
+  font-family: "Nunito", sans-serif;
+  color: #e5e9f0;
+  font-size: 50px;
 }
 
 .text {
-    font-family: 'Nunito', sans-serif;
-    color: #E5E9F0;
-    font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  color: #e5e9f0;
+  font-size: 25px;
 }
 
 #phase1 {
-    border: #E5E9F0 solid;
-    padding: 10px;
-    width: 450px;
-    text-align: center;
-    height: 500px;
+  border: #e5e9f0 solid;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  height: 500px;
 }
 
 #phase2 {
-    border: #E5E9F0 solid;
-    padding: 10px;
-    width: 450px;
-    text-align: center;
-    height: 500px;
+  border: #e5e9f0 solid;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  height: 500px;
 }
 
 #phase3 {
-    border: #E5E9F0 solid;
-    padding: 10px;
-    width: 450px;
-    text-align: center;
+  border: #e5e9f0 solid;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
 }
 
 .card-holder {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #phase1:hover {
-    box-shadow: 0px 0px 5px 3px grey;
+  box-shadow: 0px 0px 5px 3px grey;
 }
 
 #phase2:hover {
-    box-shadow: 0px 0px 5px 3px grey;
+  box-shadow: 0px 0px 5px 3px grey;
 }
 
 #phase3:hover {
-    box-shadow: 0px 0px 5px 3px grey;
+  box-shadow: 0px 0px 5px 3px grey;
 }
 
-.box{
-    width: auto;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-
-  }
-  .box input[type = "text"],.box input[type = "password"]{
-    border:0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #5E81AC;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: #ECEFF4;
-    border-radius: 24px;
-    transition: 0.25s;
-  }
-  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-    width: 280px;
-    border-color: #A3BE8C;
-  }
-  .box input[type = "submit"]{
-    border:0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #A3BE8C;
-    padding: 14px 40px;
-    outline: none;
-    color: #ECEFF4;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-  }
-  .box input[type = "submit"]:hover{
-    background: #A3BE8C;
-  }
-  
-  ::placeholder { 
-    color: #D8DEE9;
-    opacity: 1; 
-  }
-
-.button{
-    border:0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #A3BE8C;
-    padding: 14px 40px;
-    outline: none;
-    color: #ECEFF4;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-    width: 300px;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    color: #E5E9F0;
-    font-size: 15px;
+.box {
+  width: auto;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-  .button:hover{
-    background: #A3BE8C;
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #5e81ac;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #eceff4;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 280px;
+  border-color: #a3be8c;
+}
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #a3be8c;
+  padding: 14px 40px;
+  outline: none;
+  color: #eceff4;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover {
+  background: #a3be8c;
+}
+
+::placeholder {
+  color: #d8dee9;
+  opacity: 1;
+}
+
+.button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #a3be8c;
+  padding: 14px 40px;
+  outline: none;
+  color: #eceff4;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  width: 300px;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: #e5e9f0;
+  font-size: 15px;
+}
+.button:hover {
+  background: #a3be8c;
+  width: 325px;
 }
