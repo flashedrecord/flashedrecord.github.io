@@ -70,8 +70,8 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.box input[type="text"],
-.box input[type="password"] {
+
+.box input[type="text"], .box input[type="password"] {
   border: 0;
   background: none;
   display: block;
@@ -85,11 +85,12 @@ body {
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type="text"]:focus,
-.box input[type="password"]:focus {
+
+.box input[type="text"]:focus, .box input[type="password"]:focus {
   width: 280px;
   border-color: #a3be8c;
 }
+
 .box input[type="submit"] {
   border: 0;
   background: none;
@@ -104,6 +105,7 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
+
 .box input[type="submit"]:hover {
   background: #a3be8c;
 }
@@ -132,6 +134,7 @@ body {
   color: #e5e9f0;
   font-size: 15px;
 }
+
 .button:hover {
   background: #a3be8c;
   width: 325px;
